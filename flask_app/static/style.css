@@ -1,0 +1,139 @@
+/* applies to all html pages */
+body {
+	background: linear-gradient(-45deg ,rgb(110, 62, 118),#38094a, rgb(190, 110, 110), #23a6d5, #4628bd,rgb(47, 46, 46));
+	background-size: 400% 400%;
+	animation: gradient 45s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* styling for authors page */
+.authors-main {
+    display: flex;
+    margin-top: 80px;
+}
+
+#form{
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#form:hover{
+    border: 2px solid white;
+}
+
+#left{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+#create{
+    margin-top: 10px;
+}
+
+#right{
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#right:hover{
+    border: 2px solid white;
+}
+
+#add_book{
+    margin-left: 50%;
+    color: white;
+    font-size: 20px;
+}
+
+#add_book:hover{
+    border: 1px solid white;
+    color: blue;
+}
+
+/* additional styling for books page */
+
+#home{
+    color: white;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#home:hover{
+    border: 1px solid white;
+    color: blue;
+}
+
+
+/* styling for authors/show */
+
+.wrapper{
+    margin-top: 10%;
+}
+
+h1{
+    padding: 30px;
+}
+
+#col_right{
+    margin-left: 10%;
+    height: auto;
+}
+
+.book_group{
+    display: flex;
+}
+
+#book_title{
+    padding: 10px;
+}
+
+#book_selector{
+    height: 40px;
+}
+
+#add{
+    border-radius: 45%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#add:hover{
+    border: 1px solid white;
+    color: blue;
+}
+
+.form-group{
+    display: flex;
+}
+
+#add_author{
+    border-radius: 45%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+#add_author:hover{
+    color: blue;
+    border: 1px solid white;
+}
+
+#author_id{
+    height: 40px;
+}
